@@ -493,7 +493,7 @@
         <text name="dr_set_includeMarkets_v2"  text="Desligado" />
 
         <text name="dr_set_includeMapStorage"     text="Armazenamento público do mapa" />
-        <text name="dr_set_includeMapStorage_tt"  text="Inclua armazéns que você não possui, mas que ainda podem armazenar mercadorias, como um silo de grãos ferroviário. Desativado por padrão: esses armazéns normalmente cobram aluguel por litro armazenado, portanto, são adicionados à rede somente se você solicitar. Quando ativados, eles aparecem como armazéns com todos os produtos configurados para ""Armazenar"" e não movimentam nada até que você os configure." />
+        <text name="dr_set_includeMapStorage_tt"  text="Inclua armazéns que você não possui, mas que ainda podem armazenar mercadorias, como um silo de grãos ferroviário. Desativado por padrão: esses armazéns normalmente cobram aluguel por litro armazenado, portanto, são adicionados à rede somente se você solicitar. Quando ativados, eles aparecem como armazéns com todos os produtos configurados para &quot;Armazenar&quot; e não movimentam nada até que você os configure." />
         <text name="dr_set_includeMapStorage_v1"  text="Ligado" />
         <text name="dr_set_includeMapStorage_v2"  text="Desligado" />
 
@@ -648,8 +648,8 @@
         <text name="dr_guide_gettingStarted_title" text="PRIMEIROS PASSOS" />
         <text name="dr_guide_gettingStarted_1" text="O Distribution Redux substitui completamente o sistema de distribuição do jogo base. Não é necessário adicionar nenhum objeto colocável. Ele funciona com todas as construções padrão e com mods de construções que seguem o esquema padrão da GIANTS para seu tipo de construção. Este é um mod bastante complexo e é fácil criar problemas ou bloqueios sem querer. Leia todo o guia de ajuda antes de utilizá-lo." />
         <text name="dr_guide_gettingStarted_2" text="## ACESSANDO A INTERFACE" />
-        <text name="dr_guide_gettingStarted_3" text="Tecla barra invertida - \ -: abre o menu do Distribution Redux — uma janela em tela cheia com uma aba para cada tipo de construção, além deste guia e das configurações." />
-        <text name="dr_guide_gettingStarted_4" text="Tecla colchete esquerdo -[ - "[": enquanto estiver a pé, olhe para o ponto de carregamento ou descarregamento de uma construção para abrir o menu diretamente na página dela. O aviso só aparece quando você está olhando para uma de suas próprias construções que fazem parte da rede." />
+        <text name="dr_guide_gettingStarted_3" text="Tecla barra invertida &quot; \ &quot; : abre o menu do Distribution Redux — uma janela em tela cheia com uma aba para cada tipo de construção, além deste guia e das configurações." />
+        <text name="dr_guide_gettingStarted_4" text="Tecla colchete esquerdo &quot; [ &quot; : enquanto estiver a pé, olhe para o ponto de carregamento ou descarregamento de uma construção para abrir o menu diretamente na página dela. O aviso só aparece quando você está olhando para uma de suas próprias construções que fazem parte da rede." />
         <text name="dr_guide_gettingStarted_5" text="As duas teclas podem ser reconfiguradas em Opções - Controles." />
         <text name="dr_guide_gettingStarted_6" text="## A IDEIA" />
         <text name="dr_guide_gettingStarted_7" text="Abra o menu, escolha a construção desejada e defina cada produto como Manter, Distribuir, Vender e assim por diante. Esse é o ciclo básico — todo o resto são detalhes." />
@@ -662,11 +662,11 @@
         <text name="dr_guide_gettingStarted_14" text="- A rega automática obterá água de qualquer armazenamento ou da fonte de água mais próxima (por exemplo, um lago) para atender à demanda." />
         <text name="dr_guide_gettingStarted_15" text="- Permite substituir o mecanismo de distribuição padrão para priorizar demandas, bloquear entradas e saídas específicas, definir reservas de saída e definir metas de demanda de entrada." />
         <text name="dr_guide_gettingStarted_16" text="## O QUE ELE FAZ A CADA CICLO?" />
-        <text name="dr_guide_gettingStarted_17" text="- Alocar — Cria uma lista de demandas de todos os consumidores: insumos de produção, alimento para animais, silos de robôs de alimentação, palha e água para animais. Em seguida, associa as fontes às demandas começando pelas mais próximas, respeitando bloqueios por produto, prioridades e limites de entrada." />
-        <text name="dr_guide_gettingStarted_18" text="- Mover o restante — Armazena sobras nas construções de armazenamento disponíveis, move o estoque para mercados disponíveis e depois move o estoque entre armazenamentos, respeitando bloqueios por produto, prioridades e limites de entrada." />
-        <text name="dr_guide_gettingStarted_19" text="- Cobrar — Calcula o transporte com base na distância, além dos custos operacionais de produção por hora do jogo base (que, de outra forma, seriam perdidos porque o DR suprime o ciclo horário do jogo base)." />
-        <text name="dr_guide_gettingStarted_20" text="- Vender / Abastecer mercado — Vende o excedente, vende o conteúdo das reservas de mercado e depois vende saídas diretas (por exemplo, eletricidade e metano), respeitando a colheita sazonal e as regras de venda imediata ou pelo melhor preço." />
-        <text name="dr_guide_gettingStarted_21" text="- Contabilizar — Registra a produção e o fluxo das instalações de animais, calcula as diferenças de carregamento/descarregamento manual e gera o resumo financeiro." />
+        <text name="dr_guide_gettingStarted_17" text="- Alocar : Cria uma lista de demandas de todos os consumidores: insumos de produção, alimento para animais, silos de robôs de alimentação, palha e água para animais. Em seguida, associa as fontes às demandas começando pelas mais próximas, respeitando bloqueios por produto, prioridades e limites de entrada." />
+        <text name="dr_guide_gettingStarted_18" text="- Mover o restante : Armazena sobras nas construções de armazenamento disponíveis, move o estoque para mercados disponíveis e depois move o estoque entre armazenamentos, respeitando bloqueios por produto, prioridades e limites de entrada." />
+        <text name="dr_guide_gettingStarted_19" text="- Cobrar : Calcula o transporte com base na distância, além dos custos operacionais de produção por hora do jogo base (que, de outra forma, seriam perdidos porque o DR suprime o ciclo horário do jogo base)." />
+        <text name="dr_guide_gettingStarted_20" text="- Vender / Abastecer mercado : Vende o excedente, vende o conteúdo das reservas de mercado e depois vende saídas diretas (por exemplo, eletricidade e metano), respeitando a colheita sazonal e as regras de venda imediata ou pelo melhor preço." />
+        <text name="dr_guide_gettingStarted_21" text="- Contabilizar : Registra a produção e o fluxo das instalações de animais, calcula as diferenças de carregamento/descarregamento manual e gera o resumo financeiro." />
 
         <text name="dr_guide_theMenu_title" text="O MENU" />
         <text name="dr_guide_theMenu_1" text="A tecla barra invertida abre o menu consolidado. As abas ficam no lado esquerdo." />
@@ -744,7 +744,7 @@
         <text name="dr_guide_outputModes_20" text="Em todos os modos combinados, a primeira parte realmente acontece primeiro. Nada é vendido, armazenado ou enviado para um mercado até que o produto tenha sido oferecido aos consumidores." />
         <text name="dr_guide_outputModes_21" text="Mover para só é oferecido se o roteamento avançado estiver ativado (consulte Roteamento avançado)." />
 
-        <text name="dr_guide_advancedRoutingRules_title" text="Roteamento e regras avançadas" />
+        <text name="dr_guide_advancedRoutingRules_title" text="ROTEAMENTO E REGRAS AVANÇADAS" />
         <text name="dr_guide_advancedRoutingRules_1" text="## ROTEAMENTO AVANÇADO" />
         <text name="dr_guide_advancedRoutingRules_2" text="O roteamento avançado permite controlar individualmente cada entrada e saída de cada construção. Ele vem ativado por padrão e pode ser desativado nas Configurações." />
         <text name="dr_guide_advancedRoutingRules_3" text="### ENTRADAS AVANÇADAS" />
@@ -775,7 +775,7 @@
         <text name="dr_guide_advancedRoutingRules_28" text="### REGRA AUTOMÁTICA" />
         <text name="dr_guide_advancedRoutingRules_29" text="A água é fornecida automaticamente a qualquer construção que precise dela, a partir da fonte de água mais próxima, enquanto a Rega automática estiver ativada. Se não houver uma fonte de água colocada, o sistema obterá água do corpo d'água mais próximo (observe que, se o corpo d'água mais próximo estiver distante, o custo de distribuição será alto)." />
 
-        <text name="dr_guide_overviewTab_title" text="ABA VISÃO GERAL" />
+        <text name="dr_guide_overviewTab_title" text="VISÃO GERAL" />
         <text name="dr_guide_overviewTab_1" text="A aba Visão geral reúne toda a rede em uma única tabela: todas as construções incluídas e todos os produtos entrando ou saindo delas. É o lugar certo para descobrir o que realmente está acontecendo, em vez de apenas o que está configurado em uma única construção." />
         <text name="dr_guide_overviewTab_2" text="Cada produto é identificado como (Entrada), (Saída) ou (Entrada/Saída), para que você veja rapidamente em qual lado da construção ele está. Silos e galpões são Entrada/Saída para tudo, pois recebem e fornecem produtos." />
         <text name="dr_guide_overviewTab_3" text="## OS QUATROS SELETORES" />
@@ -802,7 +802,7 @@
         <text name="dr_guide_overviewTab_24" text="Na parte inferior da página há um botão para alternar entre Mostrar fluxos e Mostrar configurações. Se uma linha de produção estiver bloqueada, você pode mudar rapidamente para a página Mostrar configurações para verificar qual configuração pode estar bloqueando-a." />
         <text name="dr_guide_overviewTab_25" text="Clicar duas vezes em uma linha, em qualquer uma das visualizações, levará você diretamente à página daquela construção." />
 
-        <text name="dr_guide_palletManagement_title" text="Gerenciamento de paletes" />
+        <text name="dr_guide_palletManagement_title" text="GERENCIAMENTO DE PALATES" />
         <text name="dr_guide_palletManagement_1" text="Muitas saídas são entregues em paletes — tábuas, pranchas, vegetais em caixas, ovos, lã e assim por diante. Para garantir que o Distribution Redux funcione como esperado, o funcionamento dos paletes foi completamente reescrito." />
         <text name="dr_guide_palletManagement_2" text="O Distribution Redux levará em conta tanto o produto mantido internamente na construção quanto qualquer palete presente no gerador de paletes da construção, tanto para as informações exibidas quanto para os Modos de saída. A distribuição sempre retirará primeiro do gerador de paletes e depois do armazenamento interno. Se o gerador de paletes estiver bloqueado, o produto se acumulará no armazenamento interno da própria construção e será distribuído de lá. Um palete removido manualmente do gerador é imediatamente removido do total da construção." />
         <text name="dr_guide_palletManagement_3" text="Construções sem uma área adequada para paletes em seu modelo — alguns geradores de mods e algumas colmeias — usam, em vez disso, uma regra simples baseada na construção mais próxima." />
@@ -816,7 +816,7 @@
         <text name="dr_guide_palletManagement_11" text="No jogo padrão, os currais de animais geram um palete e o carregam com o que estiver no armazenamento interno a cada hora, independentemente de haver quantidade suficiente para um palete completo ou não (diferentemente das produções). Para manter tudo consistente, por padrão as instalações de animais foram alteradas para funcionar da mesma forma que as produções. Isso pode ser alterado nas configurações para voltar ao modo do jogo base, mas isso pode afetar a distribuição e os dados de rastreamento da distribuição (Não recomendado)." />
         <text name="dr_guide_palletManagement_12" text="Também há uma opção na mesma configuração para nunca gerar paletes. Isso impedirá que paletes sejam gerados e fará com que apenas o armazenamento interno da construção seja utilizado para a distribuição." />
 
-        <text name="dr_guide_otherChangesToBaseGameMechanics_title" text="Outras alterações nas mecânicas do jogo base" />
+        <text name="dr_guide_otherChangesToBaseGameMechanics_title" text="ALTERAÇÕES NO JOGO BASE" />
         <text name="dr_guide_otherChangesToBaseGameMechanics_1" text="## Silos-bunker" />
         <text name="dr_guide_otherChangesToBaseGameMechanics_2" text="- Ao abrir um silo-bunker, agora basta pressionar R e o mod removerá toda a cobertura do silo (não haverá mais coberturas parciais que não podem ser removidas)." />
         <text name="dr_guide_otherChangesToBaseGameMechanics_3" text="- Os silos-bunker exigem que você crie o produto final colocando o material, cobrindo-o, esperando a fermentação e depois descobrindo-o. Por isso, o Distribution Redux mostra apenas a tabela e as opções de saída e só exibirá o estoque quando o material estiver descoberto." />
@@ -827,7 +827,7 @@
         <text name="dr_guide_otherChangesToBaseGameMechanics_8" text="## Descarregamento manual nos mercados" />
         <text name="dr_guide_otherChangesToBaseGameMechanics_9" text="- Você ainda pode descarregar/deixar produtos manualmente em seus próprios mercados/estandes. Em vez de simplesmente vender imediatamente como no jogo base, esses produtos respeitarão o modo de saída definido no mercado." />
 
-        <text name="dr_guide_settings_title" text="Configurações" />
+        <text name="dr_guide_settings_title" text="CONFIGURAÇÕES" />
         <text name="dr_guide_settings_1" text="As configurações globais ficam na aba Configurações. Elas são salvas no seu SaveGame e sincronizadas no multiplayer pelo host. As escolhas individuais de cada construção sempre substituem essas configurações globais para aquela construção." />
         <text name="dr_guide_settings_2" text="## As opções" />
         <text name="dr_guide_settings_3" text="- Listadas na ordem em que aparecem na aba." />
@@ -851,7 +851,7 @@
         <text name="dr_guide_settings_21" text="- Taxa de atualização do menu — pode ser ajustada se você estiver enfrentando lag ou travamentos na interface. Manual ativará um botão de atualização que você poderá usar para atualizar a interface." />
         <text name="dr_guide_settings_22" text="- Registro de depuração — grava atividades detalhadas em log.txt. Deixe desativado para manter o log mais limpo." />
 
-        <text name="dr_guide_support_title" text="Suporte" />
+        <text name="dr_guide_support_title" text="SUPORTE" />
         <text name="dr_guide_support_1" text="## Solução de problemas" />
         <text name="dr_guide_support_2" text="- Uma construção não está aparecendo. Verifique o Alcance e os interruptores dos grupos. Proximidade alcança apenas dentro do raio definido, e uma construção cujo grupo esteja desativado é removida da rede e sua aba fica oculta." />
         <text name="dr_guide_support_3" text="- Nada está sendo entregue. Certifique-se de que a fonte esteja configurada em um modo Distribuir, em vez de Manter, que a linha de produção do consumidor esteja ativada e que ambos estejam dentro do alcance do modo atual." />
@@ -867,7 +867,7 @@
         <text name="dr_guide_support_13" text="Bugs, solicitações de recursos e pedidos de compatibilidade com mods podem ser enviados como um chamado no meu repositório do GitHub:" />
         <text name="dr_guide_support_14" text="https://github.com/Bones50/FS25-Distribution-Redux" />
 
-        <text name="dr_guide_changelog_title" text="Histórico de alterações" />
+        <text name="dr_guide_changelog_title" text="HISTÓRICO DE ATUALIZAÇÕES" />
         <text name="dr_guide_changelog_1" text="## v1.1.0.0" />
         <text name="dr_guide_changelog_2" text="1. Diversas correções de bugs (consulte o GitHub para obter todos os detalhes)." />
         <text name="dr_guide_changelog_3" text="2. Diversas melhorias de qualidade de vida (consulte o GitHub para obter todos os detalhes)." />
